@@ -1,5 +1,9 @@
 # Rate Repository App
 
-Scan the QR code below with the Expo Go app to view the project:
+This is the final application for Full Stack Open Part 10 (React Native).
 
-![App QR Code](./qr-code.png)
+## Expo App QR Code
+
+Scan this QR code with the Expo Go app on your phone to open the application:
+
+![Expo QR Code](./qr-code.png)
