@@ -11,7 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@apollo/client": "^4.2.10",
+    "@apollo/client": "^3.14.1",
     "@expo/metro-runtime": "~55.0.12",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-picker/picker": "2.11.4",

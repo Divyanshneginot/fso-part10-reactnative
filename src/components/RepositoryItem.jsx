@@ -54,10 +54,12 @@ const parseThousands = (num) => {
 };
 
 const RepositoryItem = ({ repository, showGitHubButton }) => {
+  const avatarUrl = repository.ownerAvatarUrl || 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png';
+  
   return (
     <View style={Styles.container} testID="repositoryItem">
       <View style={Styles.topSection}>
-        <Image source={{ uri: repository.ownerAvatarUrl }} style={Styles.avatar} />
+        <Image source={{ uri: avatarUrl }} style={Styles.avatar} />
         
         <View style={Styles.infoContainer}>
           <Text style={Styles.fullName}>{repository.fullName}</Text>
